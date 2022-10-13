@@ -1,4 +1,9 @@
-﻿body
-{
+﻿body{
 
+}
+div.upperPart{
+    background-image: url("/assets/photos/adam-miller-dBaz0xhCkPY-unsplash.jpg" width="100%" alt="astronaut in spacesuit looking up to the left");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
