@@ -1,15 +1,45 @@
 ﻿*{
     box-sizing: border-box;
 }
+nav{
+    text-align: right;
+    position: fixed;
+    width: 100%;
+}
+button{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+span{
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    display: block;
+    margin-bottom: 2px;
+    border-radius: 2px;
+}
+button span:nth-child(2){
+    left: -5px;
+    position: relative;
+    transition: left 0.3s ease-in-out;
+}
+button:hover span:nth-child(2){
+    left: 0;
+}
 body{
 
 }
-div.upperPart{
+div.upper part{
     background-image: url("/assets/photos/adam-miller-dBaz0xhCkPY-unsplash.jpg");
     background-size: cover;
     background-position: center;
     min-height: 100vh;
 }
-div.lowerPart{
-    background-image:;
+p.to the moon{
+    border: 1px;
+    border-color: black;
+    z-index: 1;
 }
