@@ -1,9 +1,15 @@
-﻿body{
+﻿*{
+    box-sizing: border-box;
+}
+body{
 
 }
 div.upperPart{
-    background-image: url("/assets/photos/adam-miller-dBaz0xhCkPY-unsplash.jpg";
+    background-image: url("/assets/photos/adam-miller-dBaz0xhCkPY-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    min-height: 100vh;
+}
+div.lowerPart{
+    background-image:;
 }
