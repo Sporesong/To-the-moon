@@ -32,14 +32,13 @@ button:hover span:nth-child(2){
 body{
 
 }
-div.upper part{
-    background-image: url("/assets/photos/adam-miller-dBaz0xhCkPY-unsplash.jpg");
+div.upper-part{
+    background-image: url("images/adam-miller-dBaz0xhCkPY-unsplash.jpg");
     background-size: cover;
     background-position: center;
     min-height: 100vh;
 }
-p.to the moon{
-    border: 1px;
-    border-color: black;
+div.to-the-moon{
+    border: 4px solid black;
     z-index: 1;
 }
