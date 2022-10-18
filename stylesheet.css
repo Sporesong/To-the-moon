@@ -59,7 +59,7 @@ div.to-the-moon{
     text-align: center;
     height: 180px;
     padding-top: 10px;
-    background-color: rgb(255, 255, 255, .5)
+    background-color: rgba(255, 255, 255, .5)
 }
 div.lower-part {
     background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash025.jpg");
@@ -74,8 +74,8 @@ div.lower-part {
 }
 
 @media (min-width: 1000px) {
-    div.low-part {
-        background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash.jpg"); /*denna bild kommer inte upp i inspektorn fast jag skrollar upp till bred skärm, bara de två mindre bilderna kommer upp som de ska.Varför syns inte den största bilden som är roterad?*/
+    div.lower-part {
+        background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash.jpg");
     }
 }
 h1 {
@@ -87,4 +87,18 @@ a {
     bottom: 10px;
     left:10px;
     color:black;
+}
+h2.space {
+    position: relative;
+    color: white;
+    z-index: 2;
+    top: 30px;
+    left: 30px;
+}
+h2.ventures{
+    position: relative;
+    color: darkgray;
+    z-index: 1;
+    top: -5px;
+    left: 50px;
 }
