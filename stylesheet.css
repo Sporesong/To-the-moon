@@ -43,9 +43,9 @@ div.upper-part{
         background-image: url("images/adam-miller-dBaz0xhCkPY-unsplash05.jpg");
     }
 }
-    @media (min-width: 1000px){
-        div.upper-part{
-            background-image: url("images/adam-miller-dBaz0xhCkPY-unsplash.jpg");
+@media (min-width: 1000px){
+     div.upper-part{
+        background-image: url("images/adam-miller-dBaz0xhCkPY-unsplash.jpg");
      }
 }
 div.to-the-moon{
@@ -54,7 +54,10 @@ div.to-the-moon{
     position: absolute;
     left: 30px;
     top: 50px;
-    width: auto;
+    width: 140px;
+    text-align: center;
+    height: 180px;
+    padding-top: 10px;
 }
 div.lower-part {
     background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash025.jpg");
@@ -74,5 +77,6 @@ div.lower-part {
     }
 }
 h1 {
-    
+ display: inline;
+ text-transform: uppercase;
 }
