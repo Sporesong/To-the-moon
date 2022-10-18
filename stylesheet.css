@@ -55,10 +55,11 @@ div.to-the-moon{
     position: absolute;
     left: 30px;
     top: 50px;
-    width: 140px;
+    width: 160px;
     text-align: center;
     height: 180px;
     padding-top: 10px;
+    background-color: rgb(255, 255, 255, .5)
 }
 div.lower-part {
     background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash025.jpg");
@@ -80,4 +81,10 @@ div.lower-part {
 h1 {
  display: inline;
  text-transform: uppercase;
+}
+a {
+    position: absolute;
+    bottom: 10px;
+    left:10px;
+    color:black;
 }
