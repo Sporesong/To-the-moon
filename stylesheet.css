@@ -13,13 +13,14 @@ button{
     border: 0;
     cursor: pointer;
 }
-span{
+span {
     width: 100%;
     height: 4px;
     background-color: black;
     display: block;
     margin-bottom: 2px;
     border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
 }
 button span:nth-child(2){
     left: -5px;
@@ -73,7 +74,7 @@ div.lower-part {
 
 @media (min-width: 1000px) {
     div.low-part {
-        background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash.jpg");
+        background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash.jpg"); /*denna bild kommer inte upp i inspektorn fast jag skrollar upp till bred skärm, bara de två mindre bilderna kommer upp som de ska.Varför syns inte den största bilden som är roterad?*/
     }
 }
 h1 {
