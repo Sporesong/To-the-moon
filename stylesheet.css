@@ -88,17 +88,26 @@ a {
     left:10px;
     color:black;
 }
+h2 {
+    margin:0;
+}
 h2.space {
-    position: relative;
+    /*position: relative;*/
     color: white;
     z-index: 2;
     top: 30px;
     left: 30px;
+    font-size: 4rem;
 }
 h2.ventures{
-    position: relative;
+    /*position: relative;*/
     color: darkgray;
     z-index: 1;
-    top: -5px;
+    top: -15px;
     left: 50px;
+    font-size: 6rem;
+}
+article {
+    position: absolute;
+    color:white;
 }
