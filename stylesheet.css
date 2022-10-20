@@ -82,7 +82,7 @@ h1 {
  display: inline;
  text-transform: uppercase;
 }
-a {
+a.read-our-story {
     position: absolute;
     bottom: 10px;
     left:10px;
@@ -90,9 +90,10 @@ a {
 }
 h2 {
     margin:0;
+    width: 80%;
 }
 h2.space {
-    /*position: relative;*/
+    position: relative;
     color: white;
     z-index: 2;
     top: 30px;
@@ -100,14 +101,17 @@ h2.space {
     font-size: 4rem;
 }
 h2.ventures{
-    /*position: relative;*/
+    position: relative;
     color: darkgray;
     z-index: 1;
-    top: -15px;
-    left: 50px;
-    font-size: 6rem;
+    top: -20px;
+    left: 80px;
+    font-size: 5rem;
 }
 article {
     position: absolute;
     color:white;
+}
+a.read-more {
+    color: #d200a2;
 }
