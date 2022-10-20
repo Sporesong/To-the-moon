@@ -60,6 +60,7 @@ div.to-the-moon{
     height: 11.25rem;
     padding-top: 0.625rem;
     background-color: rgba(255, 255, 255, .5);
+    font-family: 'rubik', sans-serif;
 }
 div.lower-part {
     background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash025.jpg");
@@ -87,6 +88,8 @@ a.read-our-story {
     bottom: 0.625rem;
     left: 0.625rem;
     color:black;
+    font-family: 'rubik',sans-serif, 400;
+    text-decoration: none;
 }
 h2 {
     margin:0;
@@ -126,6 +129,7 @@ h3 {
 }
 a.read-more {
     color: #d200a2;
+    line-height: 1.6;
 }
 q {
     font-size: 1.3rem;
