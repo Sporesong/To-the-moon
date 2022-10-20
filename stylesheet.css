@@ -13,7 +13,7 @@ button{
     border: 0;
     cursor: pointer;
 }
-span {
+button span {
     width: 100%;
     height: 4px;
     background-color: black;
@@ -59,7 +59,7 @@ div.to-the-moon{
     text-align: center;
     height: 180px;
     padding-top: 10px;
-    background-color: rgba(255, 255, 255, .5)
+    background-color: rgba(255, 255, 255, .5);
 }
 div.lower-part {
     background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash025.jpg");
@@ -92,7 +92,7 @@ h2 {
     margin:0;
     width: 80%;
 }
-h2.space {
+h2 span.space {
     position: relative;
     color: white;
     z-index: 2;
@@ -100,7 +100,7 @@ h2.space {
     left: 30px;
     font-size: 4rem;
 }
-h2.ventures{
+h2 span.ventures{
     position: relative;
     color: darkgray;
     z-index: 1;
