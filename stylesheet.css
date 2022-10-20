@@ -91,23 +91,27 @@ a.read-our-story {
 h2 {
     margin:0;
     width: 80%;
+    position:relative;
+    position:relative;
 }
-h2 span.space {
-    position: relative;
-    color: white;
-    z-index: 2;
-    top: 30px;
-    left: 30px;
-    font-size: 4rem;
-}
-h2 span.ventures{
-    position: relative;
-    color: darkgray;
-    z-index: 1;
-    top: -20px;
-    left: 80px;
-    font-size: 5rem;
-}
+    h2 span.space {
+        position: absolute;
+        color: white;
+        z-index: 2;
+        top: 30px;
+        left: 30px;
+        font-size: 4rem;
+        text-shadow: 1px 2px 4px rgb(0, 0, 0);
+    }
+    h2 span.ventures {
+        position: absolute;
+        color: darkgray;
+        z-index: 1;
+        top: 53px;
+        left: 80px;
+        font-size: 5rem;
+        text-shadow: 1px 2px 4px rgb(0, 0, 0);
+    }
 article {
     position: absolute;
     color:white;
