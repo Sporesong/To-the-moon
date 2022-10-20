@@ -100,20 +100,21 @@ h2 {
     h2 span.space {
         position: absolute;
         color: white;
-        z-index: 2;
+        z-index: 1;
         top: 1.875rem; 
         left: 1.875rem;
         font-size: 4rem;
         text-shadow: 1px 2px 4px rgb(0, 0, 0);
+        font-family: 'rubik',sans-serif;
     }
     h2 span.ventures {
         position: absolute;
-        color: darkgray;
-        z-index: 1;
-        top: 3.313rem;
-        left: 5rem;
+        color: rgba(255, 255, 255, 0.5); 
+        top: 3.363rem;
+        left: 5.5rem;
         font-size: 5rem;
         text-shadow: 1px 2px 4px rgb(0, 0, 0);
+        font-family: 'Times New Roman', Times, serif;
     }
 article {
     position: absolute;
