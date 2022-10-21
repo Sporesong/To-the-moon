@@ -30,16 +30,16 @@ button span:nth-child(2){
 button:hover span:nth-child(2){
     left: 0;
 }
-body{
-
+.second-page {
+    position: relative;/*förstår inte hur jag ska positionera denna container för att innehållet ska hamna rätt*/
 }
-div.upper-part{
+.upper-part{
     background-image: url("images/adam-miller-dBaz0xhCkPY-unsplash025.jpg");
     background-size: cover;
     background-position: center;
     min-height: 100vh;
 }
-div.to-the-moon{
+.to-the-moon{
     border: 4px solid black;
     z-index: 1;
     position: absolute;
@@ -52,7 +52,7 @@ div.to-the-moon{
     background-color: rgba(255, 255, 255, .5);
     font-family: 'rubik', sans-serif;
 }
-div.lower-part {
+.lower-part {
     background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash025.jpg");
     background-size: cover;
     background-position: center;
@@ -62,7 +62,7 @@ h1 {
  display: inline;
  text-transform: uppercase;
 }
-a.read-our-story {
+.read-our-story {
     position: absolute;
     bottom: 0.625rem;
     left: 0.625rem;
@@ -76,32 +76,34 @@ h2 {
     position:relative;
     position:relative;
 }
-    h2 span.space {
+    .space {
         position: absolute;
         color: white;
         z-index: 1;
         top: 1.875rem; 
         left: 1.875rem;
-        font-size: 4rem;
+        font-size: 3.8rem;
         text-shadow: 1px 2px 4px rgb(0, 0, 0);
         font-family: 'rubik',sans-serif;
     }
-    h2 span.ventures {
+    .ventures {
         position: absolute;
         color: rgba(255, 255, 255, 0.5); 
         top: 3.363rem;
         left: 5.5rem;
-        font-size: 5rem;
+        font-size: 4.8rem;
         text-shadow: 1px 2px 4px rgb(0, 0, 0);
         font-family: 'Times New Roman', Times, serif;
     }
-article.page-one {
+.part-one {
     position: absolute;
     color: white;
     top: 45rem;
     padding: 30px;
-    font-size: 0.8rem;
-    font-family: 'rubik',sans-serif, 400;
+    font-size: 0.7rem;
+    font-family: 'rubik',sans-serif;
+    font-weight: 400;
+    margin-bottom: auto;
 }
 h3 {
     position: relative;
@@ -109,50 +111,51 @@ h3 {
     font-size: 1.5rem;
     font-family: 'rubik', sans-serif;
 }
-article.page-two {
+.part-two {
     position: absolute;
     color: white;
-    top: 62rem;
     padding: 30px;
-    font-size: 0.8rem;
-    font-family: 'rubik',sans-serif, 400;
+    font-size: 0.7rem;
+    font-family: 'rubik',sans-serif;
+    font-weight: 400;
 }
-a.read-more {
+.read-more {
     color: #d200a2;
     line-height: 1.6;
 }
 q {
     font-size: 1.3rem;
     font-family: 'rubik', sans-serif;
+    font-weight:300;
     font-style:italic;
 }
 p{
     margin-top: 0.4rem;
 }
-span.planet-earth {
+.planet-earth {
     line-height:1.6;
 }
-div.desktop-visible {
+.desktop-visible {
     display: none;
 }
 @media (min-width: 800px) {
-    div.upper-part {
+    .upper-part {
         background-image: url("images/adam-miller-dBaz0xhCkPY-unsplash05.jpg");
     }
 
-    div.lower-part {
+    .lower-part {
         background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash05.jpg");
     }
-    div.desktop-visible {
+    .desktop-visible {
         display: none;
     }
 }
 @media (min-width: 1000px) {
-    div.upper-part {
+    .upper-part {
         background-image: url("images/adam-miller-dBaz0xhCkPY-unsplash.jpg");
     }
 
-    div.lower-part {
+    .lower-part {
         background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash.jpg");
     }
 
@@ -164,17 +167,17 @@ div.desktop-visible {
         cursor: pointer;
     }
 
-        button span {
-            width: 100%;
-            height: 0.4rem;
-            background-color: black;
-            display: block;
-            margin-bottom: 0.3rem;
-            border-radius: 0.225rem;
-            box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
-        }
+    button span {
+        width: 100%;
+        height: 0.4rem;
+        background-color: black;
+        display: block;
+        margin-bottom: 0.3rem;
+        border-radius: 0.225rem;
+        box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+    }
 
-    div.to-the-moon {
+    .to-the-moon {
         border: 4px solid black;
         z-index: 1;
         position: absolute;
@@ -190,11 +193,11 @@ div.desktop-visible {
         font-size: 2.4rem;
     }
 
-        div.to-the-moon br.hidden-desktop {
-            display: none;
-        }
+    .hidden-desktop {
+        display: none;
+    }
 
-    a.read-our-story {
+    .read-our-story {
         position: absolute;
         bottom: 0.625rem;
         left: 13rem;
@@ -205,7 +208,7 @@ div.desktop-visible {
         font-size: 0.8rem;
     }
 
-    div.desktop-visible {
+    .desktop-visible {
         display: block;
         font-family: 'rubik', sans-serif;
         font-weight: 300;
@@ -216,5 +219,6 @@ div.desktop-visible {
         -webkit-background-clip: text;
         color: transparent;
         margin-bottom:2rem;
+        position: absolute;
     }
 }
