@@ -39,16 +39,6 @@ div.upper-part{
     background-position: center;
     min-height: 100vh;
 }
-@media (min-width: 800px){
-    div.upper-part{                            
-        background-image: url("images/adam-miller-dBaz0xhCkPY-unsplash05.jpg");
-    }
-}
-@media (min-width: 1000px){
-     div.upper-part{
-        background-image: url("images/adam-miller-dBaz0xhCkPY-unsplash.jpg");
-     }
-}
 div.to-the-moon{
     border: 4px solid black;
     z-index: 1;
@@ -66,18 +56,7 @@ div.lower-part {
     background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash025.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
-}
-@media (min-width: 800px) {
-    div.lower-part {
-        background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash05.jpg");
-    }
-}
-
-@media (min-width: 1000px) {
-    div.lower-part {
-        background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash.jpg");
-    }
+    min-height: 120vh;
 }
 h1 {
  display: inline;
@@ -119,14 +98,16 @@ h2 {
 article {
     position: absolute;
     color: white;
-    top: 50rem;
+    top: 45rem;
     padding: 30px;
     font-size: 0.8rem;
+    font-family: 'rubik',sans-serif, 400;
 }
 h3 {
     position: relative;
     text-align: center;
     font-size: 1.5rem;
+    font-family: 'rubik', sans-serif;
 }
 a.read-more {
     color: #d200a2;
@@ -134,10 +115,79 @@ a.read-more {
 }
 q {
     font-size: 1.3rem;
+    font-family: 'rubik', sans-serif;
+    font-style:italic;
 }
 p{
     margin-top: 0.4rem;
 }
 span.planet-earth {
     line-height:1.6;
+}
+@media (min-width: 800px) {
+    div.upper-part {
+        background-image: url("images/adam-miller-dBaz0xhCkPY-unsplash05.jpg");
+    }
+
+    div.lower-part {
+        background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash05.jpg");
+    }
+}
+@media (min-width: 1000px) {
+    div.upper-part {
+        background-image: url("images/adam-miller-dBaz0xhCkPY-unsplash.jpg");
+    }
+
+    div.lower-part {
+        background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash.jpg");
+    }
+
+    button {
+        width: 3.3rem;
+        height: 3.3rem;
+        background-color: transparent;
+        border: 0;
+        cursor: pointer;
+    }
+
+        button span {
+            width: 100%;
+            height: 0.4rem;
+            background-color: black;
+            display: block;
+            margin-bottom: 0.3rem;
+            border-radius: 0.225rem;
+            box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+        }
+
+    div.to-the-moon {
+        border: 4px solid black;
+        z-index: 1;
+        position: absolute;
+        left: 4rem;
+        top: 3.225rem;
+        width: 20rem;
+        text-align: center;
+        height: 19.5rem;
+        padding-top: 0.625rem;
+        background-color: rgba(255, 255, 255, .5);
+        font-family: 'rubik', sans-serif;
+        font-weight: 900;
+        font-size: 2rem;
+    }
+
+        div.to-the-moon br.hidden-desktop {
+            display: none;
+        }
+
+    a.read-our-story {
+        position: absolute;
+        bottom: 0.625rem;
+        left: 11rem;
+        color: black;
+        font-family: 'rubik',sans-serif;
+        font-weight: 400;
+        text-decoration: none;
+        font-size: 1rem;
+    }
 }
