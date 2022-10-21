@@ -124,6 +124,9 @@ p{
 span.planet-earth {
     line-height:1.6;
 }
+div.desktop-visible {
+    display: none;
+}
 @media (min-width: 800px) {
     div.upper-part {
         background-image: url("images/adam-miller-dBaz0xhCkPY-unsplash05.jpg");
@@ -131,6 +134,9 @@ span.planet-earth {
 
     div.lower-part {
         background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash05.jpg");
+    }
+    div.desktop-visible {
+        display: none;
     }
 }
 @media (min-width: 1000px) {
@@ -166,14 +172,14 @@ span.planet-earth {
         position: absolute;
         left: 4rem;
         top: 3.225rem;
-        width: 20rem;
+        width: 21rem;
         text-align: center;
         height: 19.5rem;
-        padding-top: 0.625rem;
+        padding-top: 3.5rem;
         background-color: rgba(255, 255, 255, .5);
         font-family: 'rubik', sans-serif;
         font-weight: 900;
-        font-size: 2rem;
+        font-size: 2.4rem;
     }
 
         div.to-the-moon br.hidden-desktop {
@@ -183,11 +189,23 @@ span.planet-earth {
     a.read-our-story {
         position: absolute;
         bottom: 0.625rem;
-        left: 11rem;
+        left: 13rem;
         color: black;
         font-family: 'rubik',sans-serif;
-        font-weight: 400;
+        font-weight: 500;
         text-decoration: none;
-        font-size: 1rem;
+        font-size: 0.8rem;
+    }
+
+    div.desktop-visible {
+        display: block;
+        font-family: 'rubik', sans-serif;
+        font-weight: 300;
+        font-size: 2rem;
+        font-style: italic;
+        background-image: linear-gradient(0deg, rgba(243,148,220,0.4) 0%, rgba(232,239,100,0.4) 50%, rgba(243,148,220,0.4) 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        color: transparent;
     }
 }
