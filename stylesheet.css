@@ -37,10 +37,6 @@ button:hover span:nth-child(2){
     background-position: center;
     min-height: 120vh;
 }
-.three {
-    position: relative;
-    border: brown solid 4px;/*förstår inte hur jag ska positionera denna container för att innehållet ska hamna rätt*/
-}
 .upper-part{
     background-image: url("images/adam-miller-dBaz0xhCkPY-unsplash025.jpg");
     background-size: cover;
@@ -75,32 +71,33 @@ h1 {
     font-family: 'rubik',sans-serif, 400;
     text-decoration: none;
 }
+.three {
+    position: relative;
+    border: grey solid 4px; 
+}
 .space-ventures {
     margin:0;
-    width: 80%;
     position:relative;
     position:relative;
     border: green solid 4px;
 }
-    .space {
-        position: absolute;
-        color: white;
-        z-index: 1;
-        top: 1.875rem; 
-        left: 1.875rem;
-        font-size: 3.8rem;
-        text-shadow: 1px 2px 4px rgb(0, 0, 0);
-        font-family: 'rubik',sans-serif;
-    }
-    .ventures {
-        position: absolute;
-        color: rgba(255, 255, 255, 0.5); 
-        top: 3.363rem;
-        left: 5.5rem;
-        font-size: 4.8rem;
-        text-shadow: 1px 2px 4px rgb(0, 0, 0);
-        font-family: 'Times New Roman', Times, serif;
-    }
+.space {
+    color: white;
+    font-size: 3.8rem;
+    text-shadow: 1px 2px 4px rgb(0, 0, 0);
+    font-family: 'rubik',sans-serif;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.ventures {
+    position: relative;
+    color: rgba(255, 255, 255, 0.5); 
+    font-size: 4.7rem;
+    text-shadow: 1px 2px 4px rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    top: -3rem;
+}
 .ground-control {
     position: absolute;
     color: white;
@@ -112,7 +109,7 @@ h1 {
     margin-bottom: auto;
     border: pink solid 4px;
 }
-h3 {
+.header-ground-control {
     position: relative;
     text-align: center;
     font-size: 1.5rem;
@@ -146,14 +143,22 @@ q {
     border: red solid 4px;
 }
 .am-i-sitting {
-
+    position: absolute;
+    color: white;
+    top: 45rem;
+    padding: 30px;
+    font-size: 0.7rem;
+    font-family: 'rubik',sans-serif;
+    font-weight: 400;
+    margin-bottom: auto;
+    border: blue solid 4px;
 }
 @media (min-width: 800px) {
     .upper-part {
         background-image: url("images/adam-miller-dBaz0xhCkPY-unsplash05.jpg");
     }
 
-    .lower-part {
+    .two {
         background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash05.jpg");
     }
     .persistence-is {
@@ -165,8 +170,10 @@ q {
         background-image: url("images/adam-miller-dBaz0xhCkPY-unsplash.jpg");
     }
 
-    .lower-part {
+    .two {
         background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash.jpg");
+        display: flex;
+        gap: 6.25rem;
     }
 
     button {
@@ -201,6 +208,9 @@ q {
         font-family: 'rubik', sans-serif;
         font-weight: 900;
         font-size: 2.4rem;
+    }
+    .upper-container, .three {
+        width: 50%;
     }
 
     .hidden-desktop {
