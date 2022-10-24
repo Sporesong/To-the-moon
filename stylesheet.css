@@ -1,10 +1,28 @@
 ﻿*{
     box-sizing: border-box;
 }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display:table;
+}
 nav{
     text-align: right;
     position: fixed;
     width: 100%;
+}
+input:checked + button span {
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+}
+input:checked + button span:nth-child(1) {
+    transform: rotate(45deg);
+}
+input:checked + button span:nth-child(2) {
+    opacity: 0;
+}
+input:checked + button span:nth-child(3) {
+    transform: rotate(-45deg);
 }
 button{
     width: 2.5rem;
@@ -178,6 +196,10 @@ q {
     font-weight: 400;
     margin-bottom: auto;
     border: blue solid 4px;
+    line-height: 1.2rem;
+}
+.major-tom {
+    display: none;
 }
 @media (min-width: 800px) {
     .upper-part {
@@ -188,6 +210,9 @@ q {
         background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash05.jpg");
     }
     .persistence-is {
+        display: none;
+    }
+    .major-tom {
         display: none;
     }
 
@@ -236,6 +261,7 @@ q {
         font-weight: 900;
         font-size: 2.4rem;
     }
+
     .upper-container, .three {
         width: 50%;
     }
@@ -265,6 +291,15 @@ q {
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         color: transparent;
-        margin-bottom:2rem;
+        margin-bottom: 2rem;
+        padding-left:2rem;
+    }
+
+    .major-tom {
+        display: block;
+        width: 6.25rem;
+        height: auto;
+        float: right;
+        transform: rotate(3deg);
     }
 }
