@@ -1,0 +1,93 @@
+Document checking completed. No errors or warnings to show.
+
+Source
+<!doctype html>↩
+<html class="no-js" lang="en">↩
+<head>↩
+    <meta charset="utf-8">↩
+    <meta name="viewport" content="width=device-width, initial-scale=1">↩
+    <meta property="og:title" content="Space ventures | Ground control to major tom | To the moon">↩
+    <meta property="og:type" content="website">↩
+    <meta property="og:url" content="">↩
+    <meta property="og:image" content="">↩
+    <title>Space ventures | Ground control to major tom | To the moon</title>↩
+    <meta name="description" content="">↩
+    <link href="normalize.css" rel="stylesheet">↩
+    <link href="stylesheet.css" rel="stylesheet">↩
+    <link rel="preconnect" href="https://fonts.googleapis.com">↩
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>↩
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">↩
+    <!-- Place favicon.ico in the root directory -->↩
+</head>↩
+<body>↩
+    <section class="one">↩
+            <input type="checkbox" />↩
+            <div class="menu">↩
+                <button>↩
+                    <span></span>↩
+                    <span></span>↩
+                    <span></span>↩
+                </button>↩
+                <nav>↩
+                    <ul>↩
+                        <li>Our story</li>↩
+                        <li>Space ventures</li>↩
+                        <li>About<br class="desktop-version"> Major Tom</li>↩
+                    </ul>↩
+                </nav>↩
+            </div>↩
+        <div class="to-the-moon">↩
+            <h1>To <br class="hidden-desktop" />the<br />moon</h1>↩
+            <a class="read-our-story" href="">Read our story <span class="arrow">&#10132;</span></a>↩
+        </div>↩
+        <div class="upper-part">↩
+        </div>↩
+    </section>↩
+    <section class="two">↩
+        <div class="upper-container">↩
+            <div class="space-ventures">↩
+                <h2>↩
+                    <span class="space">Space</span>↩
+                    <span class="ventures">Ventures</span>↩
+                </h2>↩
+            </div>↩
+            <div class="ground-control">↩
+                <span class="header-ground-control">↩
+                    Ground Control to Major Tom↩
+                </span>↩
+                Ground Control to Major Tom. Take your protein pills and put your helmet on. Ground Control to Major Tom (ten, nine, eight, seven, six). Commencing countdown, engines on (five, four, three). Check ignition and may God's love be with you (two, one, liftoff). This is Ground Control to Major Tom.<br /><br />↩
+                You've really made the grade. And the papers want to know whose shirts you wear. Now it's time to leave the capsule if you dare. This is Major Tom to Ground Control. I'm stepping through the door.↩
+            </div>↩
+            <blockquote class="and-im-floating">↩
+                And I'm floating in a most peculiar way. And the stars look very different today. For here.↩
+            </blockquote>↩
+        </div>↩
+        <div class="three">↩
+            <div class="persistence-is">↩
+                Persistence is very important. You should not give up unless you are forced to give up.↩
+            </div>↩
+            <div class="am-i-sitting clearfix">↩
+                Am I sitting in a tin can. Far above the world. Planet Earth is blue. And there's nothing I can do. Though I'm past one hundred thousand miles.↩
+                <img src="images/major_tom.jpg" alt="Major Tom in an orange spacesuit, holding his helhet. Behind him you can see a galaxy." class="major-tom"/>↩
+                I'm feeling very still. And I think my spaceship. knows which way to go. Tell my wife I love her very much she knows.<br />↩
+                Ground Control to Major Tom. Your circuit's dead, there's something wrong. Can you hear me, Major Tom? Can you hear me, Major Tom? Can you hear me, Major Tom? Can you? "Here am I floating 'round my tin can."<br />↩
+                <span class="planet-earth">↩
+                    Far above the moon<br />↩
+                    Planet Earth is blue <br />↩
+                    And there's nothing I can do<br />↩
+                </span>↩
+                <a class="read-more" href="">Read more about Major Tom  &nbsp; &#10132;</a>↩
+            </div>↩
+        </div>↩
+    </section>↩
+    <footer>↩
+        I don't know where I'm going from here, but I promise it won't be boring. You should accept cookies.↩
+        <button class="accept">↩
+            Accept↩
+        </button>↩
+    </footer>↩
+</body>↩
+</html>
+Used the HTML parser.
+
+Total execution time 15 milliseconds.
