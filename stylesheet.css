@@ -128,9 +128,9 @@ li {
     font-family: 'rubik', sans-serif;
 }
 h1 {
- display: inline;
- text-transform: uppercase;
-}
+     display: inline;
+     text-transform: uppercase;
+    }
 .read-our-story {
     position: absolute;
     bottom: 0.625rem;
@@ -139,20 +139,16 @@ h1 {
     font-family: 'rubik',sans-serif, 400;
     text-decoration: none;
 }
-.three {
-    border: grey solid 4px; 
-}
 .space-ventures {
     margin:0;
     padding-left:2rem;
     position:relative;
     position:relative;
-    border: green solid 4px;
 }
 h2 {
-padding-bottom:0;
-margin-bottom:0;
-}
+    padding-bottom:0;
+    margin-bottom:0;
+    }
 .space {
     color: white;
     font-size: 3.8rem;
@@ -180,7 +176,6 @@ margin-bottom:0;
     font-family: 'rubik',sans-serif;
     font-weight: 400;
     margin-bottom: auto;
-    border: pink solid 4px;
     padding-top: 0;
     line-height: 1.2rem;
 }
@@ -195,7 +190,6 @@ margin-bottom:0;
 .and-im-floating {
     color: white;
     padding: 0;
-    border: yellow solid 4px;
     position: relative;
     font-size: 1.3rem;
     font-family: 'rubik', sans-serif;
@@ -205,33 +199,33 @@ margin-bottom:0;
     z-index: 2;
     display: inline-block;
 }
-    .and-im-floating::before {
-        content: '"';
-        display: block;
-        position: absolute;
-        font-size: 5rem;
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: 600;
-        font-style: italic;
-        color: rgba(128,128,128,0.7);
-        z-index: 0;
-        content: open-quote;
-        left: -2.2rem;
-        top: -2rem;
-    }
-    .and-im-floating::after {
-        content: '"';
-        display: block;
-        position: absolute;
-        font-size: 5rem;
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: 600;
-        font-style: italic;
-        color: rgba(128,128,128,0.7);
-        z-index:0;
-        content: close-quote;
-        top: 2rem;
-    }
+.and-im-floating::before {
+    content: '"';
+    display: block;
+    position: absolute;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: italic;
+    color: rgba(128,128,128,0.7);
+    z-index: 0;
+    content: open-quote;
+    left: -2.2rem;
+    top: -2rem;
+}
+.and-im-floating::after {
+    content: '"';
+    display: block;
+    position: absolute;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: italic;
+    color: rgba(128,128,128,0.7);
+    z-index:0;
+    content: close-quote;
+    top: 2rem;
+}
 ::before {
 top: -0.5rem;
 left: -0.5rem;
@@ -244,16 +238,12 @@ left: -0.5rem;
     color: #d200a2;
     line-height: 1.6;
 }
-q {
-    
-}
 .planet-earth {
     line-height:1.6;
     margin-top: 0.4rem;
 }
 .persistence-is {
     display: none;
-    border: red solid 4px;
 }
 .am-i-sitting {
     color: white;
@@ -263,7 +253,6 @@ q {
     font-family: 'rubik',sans-serif;
     font-weight: 400;
     margin-bottom: auto;
-    border: blue solid 4px;
     line-height: 1.2rem;
 }
 .major-tom {
@@ -283,7 +272,6 @@ footer {
     font-size: 0.8rem;
     text-shadow: 0 0 7px #d200a2, 0 0 10px #d200a2, 0 0 21px #d200a2;
 }
-
 .accept {
     background-color: #081160;
     width: auto;
@@ -302,7 +290,6 @@ footer {
     .upper-part {
         background-image: url("images/adam-miller-dBaz0xhCkPY-unsplash05.jpg");
     }
-
     .two {
         background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash05.jpg");
     }
@@ -312,19 +299,16 @@ footer {
     .major-tom {
         display: none;
     }
-
 }
 @media (min-width: 1000px) {
     .upper-part {
         background-image: url("images/adam-miller-dBaz0xhCkPY-unsplash.jpg");
     }
-
     .two {
         background-image: url("images/raphael-nogueira-svbDI1Pq30s-unsplash.jpg");
         display: flex;
         gap: 6.25rem;
     }
-
     button {
         width: 3.3rem;
         height: 3.3rem;
@@ -332,7 +316,6 @@ footer {
         border: 0;
         cursor: pointer;
     }
-
     button span {
         width: 100%;
         height: 0.4rem;
@@ -364,15 +347,12 @@ footer {
         font-weight: 900;
         font-size: 2.4rem;
     }
-
     .upper-container, .three {
         width: 50%;
     }
-
     .hidden-desktop {
         display: none;
     }
-
     .read-our-story {
         position: absolute;
         bottom: 0.625rem;
@@ -383,7 +363,6 @@ footer {
         text-decoration: none;
         font-size: 0.8rem;
     }
-
     .persistence-is {
         display: block;
         font-family: 'rubik', sans-serif;
@@ -396,8 +375,8 @@ footer {
         color: transparent;
         margin-bottom: 2rem;
         padding-left:2rem;
+        margin-top: 3rem;
     }
-
     .major-tom {
         display: block;
         width: 6.25rem;
