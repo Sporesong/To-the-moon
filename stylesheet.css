@@ -8,12 +8,28 @@
 }
 .menu {
     text-align: right;
+    position: relative;
+    position: relative;
+    z-index:2;
 }
 nav {
     position: fixed;
     background-color: rgba(0,0,0,0.5);
     width: 100vw;
     height: 100vh;
+    visibility: hidden;
+    transition: opacity 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    top: 0;
+    left: 0;
+}
+input {
+    position: fixed;
+    top: 0.5rem;
+    right: 1.25rem;
+    z-index: 3;
+    width: 2.5rem;
+    height: 2.5rem;
+    opacity: 0;
 }
 input:checked + .menu button span {
     position: absolute;
@@ -38,8 +54,12 @@ button{
     background-color: transparent;
     border: 0;
     cursor: pointer;
-    position: relative;
+    position: fixed;
     margin-right: 1rem;
+    top: 0.25rem;
+    right: 0.1rem;
+    z-index: 2;
+    pointer-events: none;
 }
 button span {
     width: 100%;
